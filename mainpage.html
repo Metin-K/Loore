@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="mainpagestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a59ddc8565.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="header">
+            <div class="h1-container"><h1>LOORE</h1></div>
+            <div class="nav-container">
+            <div class="categories">
+                <a><i class="fa fa-bars"></i>CATEGORIES<i class="arrow down"></i></a>
+            </div>
+            <div class="search-container">
+            <div class="search">
+                <form class="form-search" action="#">
+                <input type="text" class="searcher" placeholder="Search mentors" name="search">
+                <div class="show-categories">All categories<i class="arrow down"></i></div>
+                <div class="mbl-show-categories"><i class="arrow2 down"></i></div>
+                <button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            </div>
+            <div class="user-container"><i class="fas fa-user"></i></div>
+            <div id="nav-trigger-op">
+                <a href="#" class="nav-open">
+                    <i id="bars" class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="nav-trigger-cl">
+                <a href="#" class="nav-close">
+                    <i id="cross" class="fas fa-times"></i>
+                </a>
+            </div>
+            <div class="open-bar"></div>
+    
+            </div>
+    
+        </div>
+        </nav>
+
+        <div class="top-container">
+
+            <p id="career">CAREER</p>
+            <p id="title">Get Career Advice from World Class Mentors</p>
+            <p id="subtitle">Talk to a leading mentor lorem ipsum dolor sit amet.</p>
+            <img src="https://i.imgur.com/l7r7e8U.jpg" alt="">
+
+        </div>
+
+        <div class="main-container">
+
+            <div class="upper">
+            <p id="featured">Featured</p>
+            <p id="popular">Popular</p>
+            <p id="top-rated">Top Rated</p>
+            <div id="filter">Filter by<div class="triangle"></div></div>
+            <div class="mentors-container">
+
+                <div class="mentor-container">
+
+                    <div class="mentor-picture">
+                        <img src="https://i1.wp.com/www.docker.com/blog/wp-content/uploads/2019/10/Renee-M.jpg?fit=753%2C1024&ssl=1" alt="profile"></div>
+                    <div class="mentor-block">
+                        <p class="name">Giselle Sevgi</p>
+                        <p class="address-block">/<p id="address">Los Angeles, CA</p>
+                        <p class="view">View Profile</p>
+
+                        <div class="mentor-info">Lorem, ipsum dolor sit amet
+                             consectetur adipisicing elit.
+                              Magnam in totam atque placeat quasi minima. 
+                              Adipisci cupiditate repudiandae optio ipsa. Excepturi, dolores.
+                               </div>
+    
+                    </div>     
+        
+                <div class="right-block">
+                    <div class="column">
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="fas fa-video"></i>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <div class="price-block">
+                        <div class="price">
+                            <p id="pr1">$8</p><p id="pr2">.33</p><p id="pr3">/minute</p>
+                        </div>
+                        <button class="request">Request Call</button>
+                        <div class="mentor-rating">
+
+                            <li id="fs1" class="fas fa-star"></li>
+                            <li id="fs2" class="fas fa-star"></li>
+                            <li id="fs3" class="fas fa-star"></li>
+                            <li id="fs4" class="fas fa-star"></li>
+                            <li id="fs5" class="fas fa-star"></li>
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+        <script>
+    
+            
+        $('.nav-open').click(function() {
+    
+            $('#nav-trigger-op').hide();
+            $('.open-bar').show();
+            $(".categories").addClass("visible");
+            $(".search-container").addClass("visible");
+            $('#nav-trigger-cl').show();
+    
+        });
+    
+        $('.nav-close').click(function() {
+    
+            $('#nav-trigger-op').show();
+            $('.open-bar').hide();
+            $(".categories").removeClass("visible");
+            $(".search-container").removeClass("visible");
+            $('#nav-trigger-cl').hide();
+    
+    });
+        
+       
+        
+      
+    
+        </script>
+</body>
+</html>

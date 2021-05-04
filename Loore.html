@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Loorestyle.css">
+    <script src="https://kit.fontawesome.com/a59ddc8565.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    
+    <nav>
+    <div class="header">
+        <div class="h1-container"><h1>LOORE</h1></div>
+        <div class="nav-container">
+        <div class="categories">
+            <a><i class="fa fa-bars"></i>CATEGORIES<i class="arrow down"></i></a>
+        </div>
+        <div class="search-container">
+        <div class="search">
+            <form class="form-search" action="#">
+            <input type="text" class="searcher" placeholder="Search mentors" name="search">
+            <div class="show-categories">All categories<i class="arrow down"></i></div>
+            <div class="mbl-show-categories"><i class="arrow2 down"></i></div>
+            <button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        </div>
+        <div class="user-container"><i class="fas fa-user"></i></div>
+        <div id="nav-trigger-op">
+            <a href="#" class="nav-open">
+                <i id="bars" class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div id="nav-trigger-cl">
+            <a href="#" class="nav-close">
+                <i id="cross" class="fas fa-times"></i>
+            </a>
+        </div>
+        <div class="open-bar"></div>
+
+        </div>
+
+    </div>
+
+    </nav>
+    
+
+    <div class="main-container">
+
+        <div class="career-container">CAREER
+            <i id="share" class="fas fa-share-alt"></i>
+            <i id="empty-heart" class="far fa-heart"></i>
+            <i id="filled-heart" class="fas fa-heart"></i>
+            
+        </div>
+
+        <div class="title-container">
+
+            How to Get Your Dream Job Before Your Thirties
+
+        </div>
+
+        <div class="subtitle-container">
+
+            Benjamin Franklin Chose Caslon for the first printing of the American Declaration of Independence. Here is why. 
+
+        </div>
+
+        <div class="author-container">
+
+            <div class="author-picture"><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Outdoors-man-portrait_%28cropped%29.jpg" alt="profile"></div>
+            <div class="author-block">
+                <div class="author-name"><p class="name">Authorname Goeshere</p></div>
+                <div class="author-date"><p class="date">Nov 26, 2019</p></div>
+            </div>
+
+        </div>
+
+        <div class="article-container">
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ab cumque perferendis soluta voluptatum ad nemo ut a modi eveniet! Debitis deleniti perspiciatis magnam commodi sint aperiam nulla nihil quos.
+            In, ipsum illum! Soluta nisi quidem minus vitae necessitatibus dolorum voluptates ex, voluptatibus dolore nemo eveniet nihil commodi dignissimos aspernatur cupiditate obcaecati molestiae facere quos rerum fuga numquam harum aperiam.
+            Amet, laudantium dolor. Doloremque accusamus, doloribus molestias sapiente voluptates natus omnis sequi provident quaerat voluptatum repellendus? Libero explicabo sed tempora, ratione quidem repellat fugit doloremque sint porro voluptatem, exercitationem incidunt.
+            Dolor, distinctio eveniet accusantium fuga itaque similique saepe ipsam? Earum recusandae modi libero explicabo praesentium eius omnis beatae. Et eius fugit dolore nam quod repudiandae quam iusto modi cupiditate voluptates?
+            Commodi officia magni reiciendis dicta necessitatibus amet id a porro qui iste aliquid recusandae voluptate, exercitationem ex assumenda repudiandae. Error debitis, cumque cupiditate alias ipsum voluptate expedita earum dolores officiis.
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+    <script>
+
+        
+    $('.nav-open').click(function() {
+
+        $('#nav-trigger-op').hide();
+        $('.open-bar').show();
+        $(".categories").addClass("visible");
+        $(".search-container").addClass("visible");
+        $('#nav-trigger-cl').show();
+
+    });
+
+    $('.nav-close').click(function() {
+
+        $('#nav-trigger-op').show();
+        $('.open-bar').hide();
+        $(".categories").removeClass("visible");
+        $(".search-container").removeClass("visible");
+        $('#nav-trigger-cl').hide();
+
+});
+    
+   
+    
+  
+
+    </script>
+
+
+</body>
+</html>
